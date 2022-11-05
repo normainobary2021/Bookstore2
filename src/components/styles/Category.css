@@ -1,0 +1,9 @@
+.status-btn {
+  cursor: pointer;
+  padding: 12px 30px;
+  border-radius: 3px;
+  background-color: #0290ff;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+}

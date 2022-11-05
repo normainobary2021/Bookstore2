@@ -1,0 +1,36 @@
+.navbar {
+  padding: 24px 4%;
+  background-color: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  display: flex;
+  align-items: center;
+  grid-gap: 40px;
+  gap: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-logo {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #0290ff;
+  cursor: pointer;
+}
+
+.nav-list {
+  display: flex;
+  flex-grow: 1;
+  list-style-type: none;
+  grid-gap: 40px;
+  gap: 40px;
+}
+
+a.nav-item {
+  color: #121212;
+  opacity: 0.5;
+  text-transform: uppercase;
+}
+
+.nav-list .active {
+  opacity: 1;
+  letter-spacing: 2px;
+}
