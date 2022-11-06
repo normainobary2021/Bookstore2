@@ -1,0 +1,31 @@
+.add-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #888;
+  text-transform: uppercase;
+}
+
+.add-form {
+  margin-top: 20px;
+  display: flex;
+  grid-gap: 32px;
+  gap: 32px;
+}
+
+input {
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+  font-size: 1rem;
+}
+
+.addbook-btn {
+  cursor: pointer;
+  padding: 12px 30px;
+  border-radius: 3px;
+  background-color: #0290ff;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+}

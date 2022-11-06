@@ -1,0 +1,25 @@
+.books {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1rem;
+  gap: 1rem;
+}
+
+.book {
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #e8e8e8;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+.book:first-child {
+  margin-top: 0;
+}
+
+.line {
+  height: 0.25rem;
+  background-color: #e8e8e8;
+  width: 100%;
+  margin: 2rem 0;
+}
