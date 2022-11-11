@@ -2,7 +2,19 @@ import bookDetails from '../bookDetail';
 
 const ADD = 'Bookstore2/components/books/ADD_BOOK';
 const REMOVE = 'Bookstore2/components/books/REMOVE_BOOK';
-const initialState = [];
+
+const initialState = [
+  {
+    id: '0',
+    title: 'Dating in the 21st century',
+    author: 'Norman Aine',
+  },
+  {
+    id: '1',
+    title: 'Basic Computer Programming',
+    author: 'Membe Joshua',
+  },
+];
 
 const adding = (state, detail) => {
   const coming = bookDetails(detail);
@@ -26,8 +38,8 @@ const reducer = (state = initialState, action = {}) => {
   }
 };
 
-const addBoook = (detail) => ({ type: ADD, detail });
+const addBook = (detail) => ({ type: ADD, detail });
 const removeBook = (id) => ({ type: REMOVE, id });
 
-export { addBoook, removeBook };
+export { addBook, removeBook };
 export default reducer;
