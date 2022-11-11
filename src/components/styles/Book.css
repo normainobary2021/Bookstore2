@@ -31,10 +31,12 @@
   margin-top: 1.313rem;
 }
 
-.actions-list li {
+.actions-list li button{
+  border: none;
+  background: none;
   font-family: "Roboto Slab", serif;
-  color: #4386bf;
-  font-size: 0.875rem;
+  color: #4380b4;
+  font-size: 1rem;
   font-weight: 300;
   align-items: center;
   cursor: pointer;

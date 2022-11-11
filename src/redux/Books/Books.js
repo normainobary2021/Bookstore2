@@ -38,8 +38,8 @@ const reducer = (state = initialState, action = {}) => {
   }
 };
 
-const addBoook = (detail) => ({ type: ADD, detail });
+const addBook = (detail) => ({ type: ADD, detail });
 const removeBook = (id) => ({ type: REMOVE, id });
 
-export { addBoook, removeBook };
+export { addBook, removeBook };
 export default reducer;
