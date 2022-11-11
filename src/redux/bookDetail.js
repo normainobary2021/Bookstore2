@@ -1,4 +1,3 @@
-
 const bookDetails = (detail) => {
   const { title, author, category } = detail;
   return {
