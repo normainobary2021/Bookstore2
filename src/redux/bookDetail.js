@@ -1,7 +1,7 @@
 const bookDetails = (detail) => {
   const { title, author, category } = detail;
   return {
-    id: title,
+    id: ids,
     title,
     author,
     categories: category,
