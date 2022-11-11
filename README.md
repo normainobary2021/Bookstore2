@@ -14,7 +14,7 @@
 - **HTML**
 - **CSS**
 - **JavaScript**
-- **Gitflow flow**
+- **Gitflow**
 - **React**
 - **Redux**
 - **Babel**
@@ -67,6 +67,10 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 - GitHub: [normainobary2021](https://github.com/normainobary2021)
 - Twitter: [@NormanAinobush2](https://twitter.com/NormanAinobush2)
 - LinkedIn: [Norman Ainobushoborozi](https://www.linkedin.com/in/norman-ainobushoborozi/)
+
+## Acknowledgements
+
+> Special thanks to the cofounder of redux for their complete course on redux actions and store methods.
 
 ## 🤝 Contributing
 

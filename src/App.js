@@ -11,7 +11,7 @@ function App() {
       <div className="container">
         <Routes>
           <Route path="/" element={<Books />} />
-          <Route path="/catagory" element={<Category />} />
+          <Route path="/category" element={<Category />} />
         </Routes>
       </div>
     </div>
