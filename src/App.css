@@ -1,5 +1,9 @@
-.container {
-  font-family: "Montserrat", sans-serif;
-  padding: 4%;
+body {
   background-color: #f2f2f2;
+}
+
+.container {
+  padding: 0 4%;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 100px;
 }

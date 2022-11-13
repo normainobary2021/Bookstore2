@@ -7,9 +7,11 @@
 
 .add-form {
   margin-top: 20px;
-  display: flex;
   grid-gap: 32px;
   gap: 32px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 input {
@@ -18,14 +20,16 @@ input {
   border: 1px solid #e8e8e8;
   background-color: #fff;
   font-size: 1rem;
+  width: 40%;
 }
 
 .addbook-btn {
   cursor: pointer;
-  padding: 12px 30px;
+  padding: 12px 50px;
   border-radius: 3px;
   background-color: #0290ff;
   border: none;
   color: #fff;
   font-weight: 700;
+  text-transform: uppercase;
 }
