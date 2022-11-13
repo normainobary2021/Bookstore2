@@ -17,7 +17,7 @@ const Book = (props) => {
     <div className="book-card">
       <div className="book-details">
         <div className="book-category">
-          <span>Computer</span>
+          <span>Analyze Data</span>
         </div>
         <div className="book-title">
           <span>{title}</span>

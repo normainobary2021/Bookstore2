@@ -1,13 +1,15 @@
 import './styles/AddBook.css';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
+import { v4 as uuid } from 'uuid';
 import { addBook } from '../redux/Books/Books';
 
 const AddBook = () => {
   const [book, setBook] = useState({
     title: '',
     author: '',
-    id: 0,
+    category: '',
+    item_id: 0,
   });
 
   const dispatch = useDispatch();
@@ -22,6 +24,7 @@ const AddBook = () => {
     const { value } = e.target;
     setBook((e) => ({
       ...e,
+      item_id: uuid(),
       title: value,
     }));
   };
@@ -31,14 +34,15 @@ const AddBook = () => {
     const { value } = e.target;
     setBook((e) => ({
       ...e,
+      item_id: uuid(),
       author: value,
     }));
   };
 
   return (
-    <div className="form-container" onSubmit={submit}>
-      <span className="add-title"> Add New Book</span>
-      <form className="add-form">
+    <div className="form-container">
+      <span className="add-title"> Add New Book </span>
+      <form className="add-form" onSubmit={submit}>
         <input placeholder="Book Title" className="title-inp" onChange={titleChange} />
         <input placeholder="Author" className="author-inp" onChange={authorChange} />
         <button type="submit" className="addbook-btn">
