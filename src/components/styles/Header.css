@@ -1,18 +1,27 @@
-.navbar {
-  padding: 24px 4%;
+.header {
+  width: 100%;
+  height: auto;
+  padding: 1% 4%;
   background-color: #fff;
-  border-bottom: 1px solid #e8e8e8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar {
   display: flex;
   align-items: center;
-  grid-gap: 40px;
   gap: 40px;
-  font-family: "Montserrat", sans-serif;
 }
 
 .nav-logo {
   font-size: 1.875rem;
   font-weight: 700;
-  color: #0290ff;
+  color: #078df3;
   cursor: pointer;
 }
 
@@ -33,4 +42,11 @@ a.nav-item {
 .nav-list .active {
   opacity: 1;
   letter-spacing: 2px;
+}
+
+#profile {
+  border: 1px solid #e2e2e2;
+  border-radius: 50%;
+  color: #098bee;
+  font-size: xx-large;
 }

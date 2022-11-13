@@ -1,7 +1,13 @@
-.book-details {
+.book-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-detail {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 40%;
 }
 
 .book-category {
@@ -21,7 +27,7 @@
 .book-author {
   font-size: 0.875rem;
   font-weight: 300;
-  color: #4386bf;
+  color: #0290ff;
   margin-top: 0.25rem;
 }
 
@@ -35,10 +41,72 @@
   border: none;
   background: none;
   font-family: "Roboto Slab", serif;
-  color: #4380b4;
+  color: #4386bf;
   font-size: 1rem;
   font-weight: 300;
   align-items: center;
   cursor: pointer;
   margin-right: 1rem;
+}
+
+.progress-detail {
+  display: flex;
+  align-items: center;
+}
+
+.progress-bar {
+  border-radius: 50%;
+  width: 4.25rem;
+  height: 4.25rem;
+  border: 5px solid #0290ff;
+  border-left-color: #e8e8e8;
+  transform: rotate(45deg);
+}
+
+.progress-percentage {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  color: #121212;
+}
+
+.percent {
+  font-size: 2rem;
+}
+
+.completed {
+  font-size: 1rem;
+  opacity: 0.5;
+}
+
+.chapter-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.current-chapter {
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  color: #121212;
+  font-size: 0.813rem;
+  opacity: 0.5;
+  text-transform: uppercase;
+}
+
+.chapter {
+  margin: 0.438rem 0;
+  font-size: 1.2rem;
+  color: #121212;
+}
+
+.update-btn {
+  cursor: pointer;
+  border: none;
+  background-color: #0290ff;
+  border-radius: 3px;
+  padding: 8px 24px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  color: #fff;
+  text-transform: uppercase;
 }
