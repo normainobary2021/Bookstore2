@@ -10,7 +10,7 @@ const generateBook = (detail) => ({
   ...detail,
 });
 
-const domain = 'bookstore/components/books';
+const domain = 'bookstore2/components/books';
 const url = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi';
 const uniqueId = 'gSyCmhVKu8qMUyKd5nta';
 const endPoint = `${url}/apps/${uniqueId}/books`;
